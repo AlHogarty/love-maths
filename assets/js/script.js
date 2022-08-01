@@ -55,10 +55,10 @@ function checkAnswer() {
     let isCorrect = userAnswer === calculatedAnswer[0];
 
     if (isCorrect) {
-        alert("Hey! You got it right! :D");
+        alert("Alright NERD, You got this one right. But can you get the next one??");
         incrementScore();
     } else {
-        alert(`Awwww.... you answered ${userAnswer}. The correct answer was ${calculatedAnswer[0]}!`);
+        alert(`Back to school, you loser!! You answered ${userAnswer}. But the correct answer was ${calculatedAnswer[0]}! Hang your head in shame!`);
         incrementWrongAnswer();
     }
 
